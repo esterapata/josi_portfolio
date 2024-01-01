@@ -59,7 +59,8 @@ section.sally_4 {
 @media screen and (max-width: 600px)
 {
 	section{
-		height: 50vh;
+		width: 100%;
+		height: auto;
 	}
 }
 
