@@ -56,7 +56,7 @@ section.sally_4 {
   background-image: url(images/lumi_1.jpg);
 }
 
-@media screen and (min-width: 400px)
+@media screen and (max-width: 400px)
 {
 	body{ background-image: url('images/concert_1.jpg'); 
 	    }
