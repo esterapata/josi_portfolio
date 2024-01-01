@@ -1,0 +1,59 @@
+body {
+	font-family: 'DM Sans';
+	font-size: 20px;
+	line-height: 1.5;
+	
+	background-color: #000000;
+	color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 50px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #ff4141;
+}
+
+section {
+  height: 100vh;
+  
+  background-image: url(images/concert_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section.sally_2 {
+  background-image: url(images/concert_2.jpg);
+}
+
+section.sally_3 {
+  background-image: url(images/concert_3.jpg);
+}
+
+section.sally_4 {
+  background-image: url(images/lumi_1.jpg);
+}
+
+
