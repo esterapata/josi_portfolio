@@ -46,17 +46,14 @@ section {
 
 section.sally_2 {
   background-image: url(images/concert_2.jpg);
-	max-width: 600px;
 }
 
 section.sally_3 {
   background-image: url(images/concert_3.jpg);
-	max-width: 600px;
 }
 
 section.sally_4 {
   background-image: url(images/lumi_1.jpg);
-	max-width: 600px;
 }
 
 @media screen and (max-width: 600px)
@@ -64,6 +61,11 @@ section.sally_4 {
 	h1{
 		font-size: 36px;
 		line-height: 50px;
+	}
+	section{
+	width: 100%;
+  	max-width: 400px;
+  	height: auto;	
 	}
 }
 
